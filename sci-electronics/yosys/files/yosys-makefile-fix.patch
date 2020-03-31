@@ -1,0 +1,12 @@
+--- a/Makefile.old
++++ a/Makefile
+@@ -128,7 +128,8 @@
+ # is just a symlink to your actual ABC working directory, as 'make mrproper'
+ # will remove the 'abc' directory and you do not want to accidentally
+ # delete your work on ABC..
+-ABCREV = 623b5e8
++# ABCREV = 623b5e8
++ABCREV = default
+ ABCPULL = 1
+ ABCURL ?= https://github.com/berkeley-abc/abc
+ ABCMKARGS = CC="$(CXX)" CXX="$(CXX)" ABC_USE_LIBSTDCXX=1
